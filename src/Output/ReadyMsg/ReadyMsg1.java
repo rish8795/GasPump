@@ -15,7 +15,9 @@ public class ReadyMsg1  extends ReadyMsg{
 		// TODO Auto-generated method stub
 		DataStore1 d = (DataStore1) data;
 		
-		
+		System.out.println("Your Fuel is ready now, You can fill it. \n");
+		System.out.println(" Select (9) to pump 1 gallon of " + d.gastype + "gas");
+		System.out.println("Select (s) to Stop operation");
 		
 	}
 

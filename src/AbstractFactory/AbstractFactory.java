@@ -1,56 +1,52 @@
 package AbstractFactory;
 
+import DataStore.Data;
+import Output.CancelMsg.CancelMsg;
+import Output.DisplayMenu.DisplayMenu;
+import Output.GasPumpedMsg.GasPumpedMsg;
+import Output.PayMsg.PayMsg;
+import Output.PrintReceipt.PrintReceipt;
+import Output.PumpGasUnit.PumpGasUnit;
+import Output.ReadyMsg.ReadyMsg;
+import Output.RejectMsg.RejectMsg;
+import Output.ReturnCash.ReturnCash;
+import Output.SetInitialPrices.SetInitialPrice;
+import Output.SetPrice.SetPrice;
+import Output.StopMsg.StopMsg;
+import Output.StoreCash.StoreCash;
+import Output.StoreData.StoreData;
+
+
 public abstract class AbstractFactory {
 
-	public void getActivate(Double a)
-	{
-		
-	}
+	public abstract Data getObject();
 	
-	public void getActivate(Double a, Double b)
-	{
-		
-	}
+	public abstract CancelMsg getcancelmsg();
 	
-	public void getPay(Double c)
-	{
-		
-	}
+	public abstract DisplayMenu getdisplaymenu();
 	
-	public void StoreData()
-	{
-		
-		
-	}
+	public abstract GasPumpedMsg getgaspumpedmsg();
 	
-	public void payMsg()
-	{
-		
-	}
+	public abstract PayMsg getpaymsg();
 	
-	public void StoreCash()
-	{
-		
-	}
+	public abstract PrintReceipt getprintreceipt();
 	
-	public void displayMenu()
-	{
-		
-	}
+	public abstract PumpGasUnit getpumpgasunit();
 	
-	public void RejectMsg()
-	{
-		
-	}
-	public void SetPrice(int g)
-	{
-		
-	}
+	public abstract ReadyMsg getreadymsg();
 	
-	public void setW(int k)
-	{
-		
-	}
+	public abstract RejectMsg getrejectmsg();
 	
+	public abstract ReturnCash getreturncash();
+	
+	public abstract SetInitialPrice getinitialprice();
+	
+	public abstract SetPrice getPrice();
+	
+	public abstract StopMsg getstopmsg();
+	
+	public abstract StoreCash getstorecash();
+	
+	public abstract StoreData getstoredata();
 	
 }
