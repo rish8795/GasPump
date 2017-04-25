@@ -36,5 +36,61 @@ public class StateMachine {
 	{
 		this.op = op;
 	}
+	
+	
+	
+	public void activate() {
+        s.activate();
+    }
+
+    public void start() {
+        s.start();
+    }
+
+    public void payType(int t) {
+        s.paytype(t);
+    }
+
+    public void approve() {
+        s.approve();
+    }
+
+    public void reject() {
+        s.reject();
+    }
+
+    public void cancel() {
+        s.cancel();
+    }
+    
+    public void selectgas(int g)
+    {
+    	s.selectgas(g);
+    }
+    
+    public void startpump()
+    {
+    	s.startpump();
+    }
+    
+    public void pump()
+    {
+    	s.pump();
+    }
+    public void stoppump()
+    {
+    	s.stoppump();
+    }
+    
+    public void receipt()
+    {
+    	s.receipt();
+    }
+    
+    public void noreceipt()
+    {
+    	s.noreceipt();
+    }
+
 
 }
