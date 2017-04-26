@@ -1,5 +1,7 @@
 package MDA.EFSM;
 
+//State 3 in MDA.EFSM
+
 public class S3 extends State{
 
 	public S3(StateMachine sm) {
@@ -7,6 +9,7 @@ public class S3 extends State{
 		// TODO Auto-generated constructor stub
 	}
 	
+	// transition to state s4 and call SetPrice() meta-action
 	@Override
 	void selectgas(int g)
 	{
@@ -18,6 +21,7 @@ public class S3 extends State{
 		
 	}
 
+	// transition to state s0 and call CancelMsg() and ReturnCash() meta-action
 	@Override
 	void cancel()
 	{

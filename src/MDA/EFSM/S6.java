@@ -7,6 +7,7 @@ public class S6 extends State {
 		// TODO Auto-generated constructor stub
 	}
 	
+	// transition to state S0 and call PrintReceipt() and ReturnCash().
 	@Override
 	void receipt()
 	{
@@ -19,6 +20,7 @@ public class S6 extends State {
 		
 	}
 	
+	// transition to state S0 and call ReturnCash() meta-action.
 	@Override
 	void noreceipt()
 	{

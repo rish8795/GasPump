@@ -3,6 +3,9 @@ package Output.StoreData;
 import DataStore.Data;
 import DataStore.DataStore1;
 
+/*
+ * GasPump1 StoreData action responsible for storing the "a" and "b" price parameters specified by method "Activate" of the InputProcessor for GasPump1
+*/
 public class StoreData1  extends StoreData{
 
 	public StoreData1(Data data) {
@@ -13,6 +16,7 @@ public class StoreData1  extends StoreData{
 	@Override
 	public void storedata() {
 		// TODO Auto-generated method stub
+		// Read the temporary variables "a" and "b" and initialize the gas prices of the system accordingly
 		DataStore1 d = (DataStore1) data;
 		
 		d.R_price = d.a;

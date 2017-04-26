@@ -1,5 +1,6 @@
 package Output.StopMsg;
 
+// this method is use to inidcate that pumping is stopped for GasPump1.
 public class StopMsg1 extends StopMsg{
 
 	@Override

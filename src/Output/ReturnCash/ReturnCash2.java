@@ -2,7 +2,7 @@ package Output.ReturnCash;
 
 import DataStore.Data;
 import DataStore.DataStore2;
-
+// GasPump2 returncash is responsible for retruning the remaining amount of cash.
 public class ReturnCash2 extends ReturnCash{
 	
 	public ReturnCash2(Data data) {
@@ -10,6 +10,7 @@ public class ReturnCash2 extends ReturnCash{
 		super(data);
 	}
 
+	// this method will first calculate the total bill amount generated and then it will calculate the change necessary. if there is any change left then it will return back.
 	@Override
 	public void returncash() {
 		// TODO Auto-generated method stub

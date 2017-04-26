@@ -7,6 +7,7 @@ public class S5 extends State{
 		// TODO Auto-generated constructor stub
 	}
 	
+	// No transition of state but call PumpgasUnit() and GasPumpedMsg() meta-event.
 	@Override
 	void pump()
 	{
@@ -18,6 +19,7 @@ public class S5 extends State{
 		}
 	}
 	
+	// transition to state S6 and call StopMsg() meta-action.
 	@Override
 	void stoppump()
 	{

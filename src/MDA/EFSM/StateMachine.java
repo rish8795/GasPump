@@ -1,6 +1,9 @@
 package MDA.EFSM;
 
 import OutputProcessor.OutputProcessor;
+// it serves as a VM class in De-centralized state design pattern.
+
+//state classes are use for performing actions and state transitions.
 
 public class StateMachine {
 	
@@ -11,6 +14,7 @@ public class StateMachine {
 	
 	public StateMachine()
 	{
+		//list of states in MDA.EFSM
 		LS = new State[8];
 		
 		
@@ -26,7 +30,7 @@ public class StateMachine {
 		s = LS[7];
 	}
 	
-	
+	// Getters and Setters methods.
 	public OutputProcessor getOP()
 	{
 		return op;

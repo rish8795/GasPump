@@ -2,6 +2,8 @@ package Output.PrintReceipt;
 
 import DataStore.Data;
 
+// this is abstract class use to group all PrintReceipt actions under one action.
+
 public abstract class PrintReceipt {
 	
 	Data data;

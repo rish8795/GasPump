@@ -16,7 +16,11 @@ import Output.StopMsg.StopMsg;
 import Output.StoreCash.StoreCash;
 import Output.StoreData.StoreData;
 
-
+/* 
+ * this class groups all classes under one single classes and It defines methods
+ * which return the GasPump specific action components which all Abstract_gp's need to implement
+ * 
+ * */
 public abstract class AbstractFactory {
 
 	public abstract Data getObject();

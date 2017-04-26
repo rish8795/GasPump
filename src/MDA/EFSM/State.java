@@ -1,5 +1,14 @@
 package MDA.EFSM;
 
+// This class is the abstract State superclass in the De-centralized State Design Pattern.
+
+/* 
+ * In this State methods are initially defined to print a "errormessage" message.
+ * Each state subclass inherits these methods and overrides the appropriate ones.
+ * This means that methods that do not get overridden will print a "errormessage" message
+ * if they are called from a state that does not allow them to be called
+ * */
+
 public abstract class State {
 	
 	StateMachine sm;

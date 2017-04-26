@@ -17,7 +17,7 @@ public class DataStore1 extends Data{
 	public float price;
 	public int g;
 	public float total;
-	public float a;
-	public float b;
+	public float a; //temporary variable
+	public float b;  //temporary variable
 
 }

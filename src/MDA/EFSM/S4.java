@@ -1,5 +1,7 @@
 package MDA.EFSM;
 
+// State 4 in MDA.EFSM
+
 public class S4 extends State{
 
 	public S4(StateMachine sm) {
@@ -7,6 +9,7 @@ public class S4 extends State{
 		// TODO Auto-generated constructor stub
 	}
 
+	//TRANITION TO STATE S5 and call SetInitialPrice() and ReadyMsg() meta-action.
 	@Override
 	void startpump()
 	{

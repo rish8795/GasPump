@@ -1,6 +1,4 @@
 package OutputProcessor;
-
-
 import AbstractFactory.AbstractFactory;
 import DataStore.Data;
 import Output.CancelMsg.CancelMsg;
@@ -17,6 +15,11 @@ import Output.SetPrice.SetPrice;
 import Output.StopMsg.StopMsg;
 import Output.StoreCash.StoreCash;
 import Output.StoreData.StoreData;
+
+//This class is the general output processor for the gas pump system.
+// Each meta-action in this class calls the platform specific implementation of the action.
+//This class acts as the "Client" class in the strategy design pattern.
+
 
 public class OutputProcessor {
 

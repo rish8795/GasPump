@@ -1,5 +1,7 @@
 package MDA.EFSM;
 
+
+// this is the initial state in MDA.EFSM
 public class InitialState extends State{
 
 	public InitialState(StateMachine sm) {
@@ -12,6 +14,7 @@ public class InitialState extends State{
 	void activate()
 	{
 	
+		// Transition to state S0 and call StoreData() meta-action.
 		
 		if(sm.s == sm.LS[7])
 		{

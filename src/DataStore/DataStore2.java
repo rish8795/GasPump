@@ -17,6 +17,8 @@ public class DataStore2 extends Data {
 	public int l;
 	public int total;
 	public float cash;
+	
+	// temporary variables
 	public int a;
 	public int b;
 	public int c;
